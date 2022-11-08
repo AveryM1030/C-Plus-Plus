@@ -2,6 +2,9 @@
 #include <iostream>
 #include "./headers/BasicIO.h"
 #include "./headers/Decisions.h"
+#include "./headers/Loops.h"
+#include "./headers/Functions.h"
+#include "./headers/Structs.h"
 
 // In C++, a namespace is a collection of related identifiers
 // (functions, classes, objects, variable).
@@ -26,5 +29,8 @@ int main() {
     // cout << "Hello World!";
     // output();
     // input();
-    decisions1();
+    // decisions1();
+    // loops1();
+    // congratulate1("Avery", "C++", "Bjarne Stroustrup");
+    accessStructMembers();
 }
